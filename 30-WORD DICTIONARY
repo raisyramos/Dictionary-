@@ -1,2 +1,34 @@
-CREATING A 30-WORD DICTIONARY USING PYDROID 3.
-YOUTUBE LINK TO THE VIDEO ON MAKING THE DICTIONARY: https://youtu.be/OUOG-qSRE34?si=ZaJR0xxVkPYxhadO
+DATA = {
+    "AERODYNAMICS" : "The study of how gases interact with objects, especially in motion",
+    "ALGORITHM" : "A set of step-by-step instructions for solving a problem",
+    "AUTOMATION" : "The use of technology to perform tasks without human intervention",
+    "CIRCUITS" : "A closed path through which electricity flows",
+    "COMPUTATION" : "The process of performing calculations or processing data",
+    "CONTROL" : "The regulation of systems to maintain stability and performance",
+    "CYBERNETICS" : "The study of systems, control, and communication in machines and living organisms",
+    "DATA" : "Information that is processed or stored for analysis and decision-making",
+    "DYNAMICS" : "The study of forces and motion in physical systems",
+    "ELECTROMAGNETISM" : "The branch of physics dealing with electric and magnetic fields and their interactions",
+    "EMBEDDED" : "A computing system designefd for specific tasks within a larger device",
+    "FINITE" : "A numerical method used in engineering to solve complex problems by breaking them into smaller parts",
+    "FLUIDS" : "Substances that flow, including liquids and gases, studied in fluid mechanics",
+    "HEAT" : "A form of energy transfer due to temperature differences",
+    "INTERNET" : "A global network that allows data exchange and communication between computers",
+    "KINEMATICS" : "The study of motion without considering forces causing it",
+    "MACHINE" : "A device that applies mechanical power to perform work",
+    "MATERIALS" : "Substances used in engineering applications based on their properties",
+    "MECHATRONICS" : "A field combining mechanical, electrical, and software engineering",
+    "MICROCONTROLLER" : "A small integrated circuit that controls electronic devices",
+    "OPTOELECTRONICS" : "The study of electronic devices that interact with light",
+    "QUANTUM" : "A field dealing with physics at the smalledt scales, used in quantum computing",
+    "RENEWABLES" : "Energy sources that are naturally replenished, like solar and wind",
+    "RESISTOR" : "An electrical component that limits or regulates current in a circuit",
+    "ROBOTICS" : "The design, construction, and operation of robots",
+    "SOFTWARE" : "Programs and instructions that tell a computer how to perform tasks",
+    "STATICS" : "The study of forces and equilibrium, where objects do not move",
+    "STRUCTURES" : "The arrangement and design of materials to support loads",
+    "INTEGRITY" : "The strength and durability of a structure to withstand stress",
+    "THERMODYNAMICS" : "The study of heat, energy, and their transformations"
+}
+a = input("SEARCH: ")
+print(DATA[a])
